@@ -1,0 +1,3 @@
+Europe/Berlin,Berlin
+Europe/London,London
+America/New_York,New York

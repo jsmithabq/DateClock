@@ -1,0 +1,25 @@
+<!--
+ $Id:  testclockApplet.html $
+-->
+<html>
+  <title>Clock Applet Test</title>
+  <body>
+    <p>The clock applet begins immediately following this paragraph
+    (using applet tag).</p>
+    <applet code="time.ClockApplet" width="200" height="270"
+        archive="./Time.jar">
+      <param name=updatePeriod value=1000>
+    </applet>
+    <p>The clock applet ends immediately preceding this paragraph
+    (using applet tag).</p>
+    <p>The clock applet begins immediately following this paragraph
+    (using object tag).</p>
+    <object codetype="application/java"
+        classid="java:time.ClockApplet.class" width="200" height="270"
+        archive="./Time.jar">
+      <param name=updatePeriod value=1000>
+    </object>
+    <p>The clock applet ends immediately preceding this paragraph
+    (using object tag).</p>
+  </body>
+</html>
